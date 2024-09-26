@@ -1,9 +1,9 @@
-import { FastifyPluginAsync } from "fastify"
+import { FastifyInstance, FastifyPluginAsync } from 'fastify';
 
-const example: FastifyPluginAsync = async (fastify, opts): Promise<void> => {
-  fastify.get('/', async function (request, reply) {
-    return 'this is an example'
-  })
-}
+const example: FastifyPluginAsync = async (fastify: FastifyInstance) => {
+  fastify.get('/', async (request, reply) => {
+    return 'this is an example';
+  });
+};
 
 export default example;

@@ -11,6 +11,6 @@ This example starts a [Fastify](https://www.fastify.io/) server.
 
 ## 💁‍♀️ How to use
 
-- Install dependencies `npm install`
+- Install dependencies `npm ci`
 - Connect to your Railway project `railway link`
 - Start the development server `railway run npm run dev`
