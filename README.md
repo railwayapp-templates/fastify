@@ -1,4 +1,4 @@
-# Fastify Example
+# Notify 
 
 This example starts a [Fastify](https://www.fastify.io/) server.
 
