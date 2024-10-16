@@ -1,10 +1,9 @@
-import { FastifyInstance, FastifyPluginAsync } from 'fastify';
+import { FastifyInstance, FastifyPluginAsync } from "fastify";
 
 const root: FastifyPluginAsync = async (fastify: FastifyInstance) => {
-  fastify.get('/', async (request, reply) => {
-
+  fastify.get("/", async () => {
     const response = {
-      message: 'Welcome to Fastify Hello World API on Railway',
+      message: "Hi",
       timestamp: new Date().toISOString(),
     };
 
